@@ -1,10 +1,19 @@
 {
   "name": "indecision-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "ap.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/script/app.js --presets=env,react --watch"
+  },
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "1.5.2",
-    "babel-preset-react": "6.24.1"
+    "babel-preset-react": "6.24.1",
+    "webpack": "^4.28.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
   }
 }
