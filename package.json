@@ -19,6 +19,7 @@
     "webpack": "^4.28.3"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
     "live-server": "^1.2.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.14"
